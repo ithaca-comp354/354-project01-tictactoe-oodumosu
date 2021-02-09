@@ -6,7 +6,7 @@ import edu.ithaca.dragon.games.tictactoe.board.TicTacToeBoard;
 
 import org.apache.commons.lang3.ArrayUtils;
 
-public class RuleBasedKemiPlayer implements TicTacToePlayer {
+public class RuleBasedAgentKemi implements TicTacToePlayer {
     String curBoardState;
     int count;
     int[] allStates;
